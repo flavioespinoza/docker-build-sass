@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:10.16.3-alpine
 
 LABEL maintainer="Flavio Espinoza <flavio.espinoza@gmail.com>"
 

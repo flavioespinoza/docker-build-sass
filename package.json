@@ -1,0 +1,21 @@
+{
+  "name": "docker-build-sass",
+  "version": "1.0.0",
+  "description": "Sass binary builder for Docker's Linux OS",
+  "main": "index.js",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"docker-build": "docker build -t flavioespinoza/docker-build-sass -f Dockerfile .",
+		"docker-push": "docker push flavioespinoza/docker-build-sass:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flavioespinoza/docker-build-sass.git"
+  },
+  "author": "'Flavio Espinoza <flavio.espinoza@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flavioespinoza/docker-build-sass/issues"
+  },
+  "homepage": "https://github.com/flavioespinoza/docker-build-sass#readme"
+}
